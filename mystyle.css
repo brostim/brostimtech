@@ -1,0 +1,665 @@
+.mylogo {
+    text-align-last: right;
+    color: orangered;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    font-size: xx-large;
+    border: inset;
+    border-color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+body {
+   background-color: white;
+   background-size: cover;
+   background-position: center;
+   font-family: sans-serif;
+}
+
+.menu {
+    background: rgb(211, 235, 243);
+    text-align: center;
+}
+
+.menu ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.menu ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 7px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.home, .menu ul li:hover {
+      background: rgb(160, 233, 191);
+      border-radius: 20px;
+}
+
+
+.menu .fa {
+    margin-right: 8px;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.menu ul li:hover .sub-menu { 
+    display: block;
+    position: absolute;
+    background: rgb(150, 226, 150);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu ul li:hover .sub-menu ul {
+     display: block;
+     margin: 10px;
+     border-radius: 10px;
+}
+
+.menu ul li:hover .sub-menu ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 5px;
+    text-align: left;
+}
+
+
+
+.sub-menu2 {
+    display: none;
+}
+
+.menu ul li:hover .sub-menu2 { 
+    display: block;
+    position: absolute;
+    background: rgb(150, 226, 150);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+
+.menu ul li:hover .sub-menu2 ul {
+     display: block;
+     margin: 10px;
+     border-radius: 10px;
+}
+
+.menu ul li:hover .sub-menu2 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 5px;
+    text-align: left;
+}
+
+#link:hover{
+    background-color: lightblue;
+    padding: 20px;
+}
+
+
+
+
+#welc {
+    color: black;
+    text-align-last: center;
+    border: inset;
+    
+}
+
+.logoimg {
+    position: relative;
+   margin-left: 31%;
+   top: -550px;
+}
+
+
+
+.side {
+    background-color: white;
+    border: outset;
+}
+
+#side1 {
+    width: 400px;
+    height: 260px;
+    position: relative;
+    left: 0px;
+
+}
+
+#side2 {
+    width: 400px;
+    height: 260px;
+    position: relative;
+    left: 930px;
+    top: -265px;
+}
+
+
+
+
+
+
+
+#table {
+    text-decoration: none;
+    color: gray;
+}
+
+#table:hover {
+    color: green;
+    font-size: xx-small px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+.dropdown {
+    color: black;
+    padding: 15px;
+    background-color: rgb(208, 253, 208);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dropdown:hover {
+    background-color: lightgreen;
+}
+
+.mainmenu {
+    background-color: lightblue;
+    min-width: 250px;
+    position: absolute;
+   display: none;
+   border-radius: 10px;
+}
+
+.mainmenu button {
+     padding: 5px;
+     border-radius: 10px;
+     color: black;
+     background-color: white;
+}
+
+.mainmenu button:hover{
+    background-color: lightgreen;
+}
+
+.mydrop:hover .mainmenu {
+    display: block
+}
+
+#welctext {
+    text-align-last: center;
+    color: black;
+}
+
+p {
+    text-align-last: center;
+    color: black;
+}
+
+h2{
+    color: black;
+    text-align-last: center;
+}
+
+
+
+
+
+#motivate {
+    width: 1330px;
+    height: 500px;
+    background-color: lightgreen;
+    top: 550px;
+    position: absolute;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#side3 {
+    width: 250px;
+    height: 800px;
+    position: relative;
+    top: -810px;
+    right: -190px;
+}
+
+#side4 {
+    width: 250px;
+    height: 800px;
+    position: relative;
+    right: -880px;
+    top: -1610px;
+}
+
+
+
+
+
+
+.works {
+    background-color: white;
+    width: 350px;
+    height: 750px;
+    padding: 30px;
+    margin: auto;
+    border: outset;
+    border-radius: 5px;
+}
+
+.click {
+    color: black;
+    background-color: lightblue;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.click:hover {
+    background-color: lightgreen;
+}
+
+#motivation {
+    text-align-last: center;
+    color: white;
+}
+
+.contactme {
+    background-color: black;
+}
+
+
+
+/* web.html        */
+
+
+.webdiv1 {
+    width: 500px;
+    height: 1000px;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    border: outset;
+    border-radius: 10px;
+    left: 400px;
+}
+
+
+ .websubmit1{
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+#webhome{
+    text-decoration: none;
+    position: absolute;
+   right: 0px;
+}
+
+#webgraphics{
+    text-decoration: none;
+}
+
+#webvideo {
+    text-decoration: none;
+}
+
+
+
+/* graphic.html*/
+
+
+.graphicdiv1 {
+    width: 500px;
+    height: 1000;
+    margin: auto;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#graphichome {
+    text-decoration: none;
+    position: absolute;
+    right: 0px;
+}
+
+#graphicsdev {
+    text-decoration: none;
+}
+
+#graphicvideo {
+    text-decoration: none;
+}
+
+
+
+/*video.html*/
+
+
+
+
+#videohome {
+    text-decoration: none;
+    position: absolute;
+    right: 0px;
+}
+
+#videodev {
+    text-decoration: none;
+}
+
+#videographic {
+    text-decoration: none;
+}
+
+.videodiv1 {
+    width: 500px;
+    height: 1000;
+    margin: auto;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+
+
+/*my contents*/
+
+#mycontents {
+    background-color: gray;
+    border: outset;
+    height: 18000px;
+    width: 700px;
+
+}
+
+.contenth1 {
+  text-align-last: center;
+}
+
+#mycontentdiv2 {
+    width: 750px;
+    height: 100px;
+    border: outset black;
+    background-color: white; 
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    border-radius: 15px;
+}
+
+.homediv {
+    width: 100px;
+    height: 90px;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    left: 350px;
+    top: 30px
+}
+
+.nextdiv {
+    width: 100px;
+    height: 90px;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    left: 600px;
+    top: 30px
+}
+
+.prevdiv {
+    width: 100px;
+    height: 90px;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    right: 150px;
+    top: 30px
+}
+
+
+#mycontent2 {
+    background-color: gray;
+    border: outset;
+    height: 18000px;
+    width: 700px;
+}
+
+
+
+
+
+/*my log in page*/
+
+#logdiv {
+    width: 500px;
+    height: 500px;
+    background-color: bisque;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    right: 370px;
+}
+
+
+#logdiv .mylog {
+    background-color: rgb(191, 236, 191);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+#logdiv .mylog:hover {
+    background-color: beige;
+    padding: 13px;
+    cursor: pointer;
+    border: outset gray 3px;
+
+}
+
+#logbtn {
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    font-size: x-large;
+}
+
+#logbtn:hover {
+background-color: rgb(11, 11, 78);
+}
+
+#sublabel {
+    color: black;
+}
+
+
+
+
+
+
+
+#stu-idcard-div {
+    background-color: bisque;
+    width: 600px;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.idinfo {
+    background-color: rgb(206, 241, 206);
+    text-align-last: center;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#idcard {
+    width: 480px;
+    height: 250px;
+    background-color: burlywood;
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 6px 12px 15px gray;
+}
+
+#idcard #imgdiv {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: black solid 1px;
+    position: relative;
+    left: 378px;
+}
+
+
+#schname {
+    width: 374px;
+    height: 50px;
+    background-color: burlywood;
+    position:absolute;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+#imgcard {
+    position: absolute;
+    left: 100px;
+    top: 850px;
+    opacity: unset;
+}
+
+#stu-id {
+    color: red;
+    font-weight: 100;
+    position: absolute;
+    top: 810px;
+    left: 180px;
+    background: none;
+    text-decoration: underline 3px;
+}
+
+#dep {
+    background-color: transparent;
+    width: fit-content;
+    padding: 5px;
+    font-weight: 100px;
+    position: relative; 
+    bottom: 20px;
+    border-radius: 10px;
+}
+
+#dep.stu-detail {
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+.receiveinfo {
+    background-color:  transparent;
+    width: 340px;
+    height: 25px;
+    position: relative;
+    left: 150px;;
+    font-size: larger;
+    color: blue;
+}
+
+#dep1 {
+    width: 215px;
+    bottom: 195px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#ent1 {
+    bottom: 210px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#name1 {
+    bottom: 225px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#reg1 {
+    bottom: 240px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#state1 {
+    bottom: 255px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#subtn {
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0px 4px 6px blue;
+}
+
+#subtn:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+#upimg {
+    background-color: blue;
+    border-radius: 5px;
+}
